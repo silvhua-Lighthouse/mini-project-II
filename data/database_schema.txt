@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS "coworkingYelp" (
+"id" TEXT,
+  "name" TEXT,
+  "review_count" INTEGER,
+  "rating" REAL,
+  "distance" REAL,
+  "coordinates_latitude" REAL,
+  "coordinates_longitude" REAL,
+  "location_address1" TEXT
+);
+CREATE TABLE IF NOT EXISTS "coworking4square" (
+"fsq_id" TEXT,
+  "distance" INTEGER,
+  "link" TEXT,
+  "name" TEXT,
+  "geocodes_main_latitude" REAL,
+  "geocodes_main_longitude" REAL,
+  "location_address" TEXT
+);
+CREATE TABLE IF NOT EXISTS "restaurants" (
+"id" TEXT,
+  "name" TEXT,
+  "review_count" INTEGER,
+  "rating" REAL,
+  "distance" REAL,
+  "coordinates_latitude" REAL,
+  "coordinates_longitude" REAL,
+  "location_address1" TEXT
+);
